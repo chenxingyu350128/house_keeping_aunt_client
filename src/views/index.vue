@@ -97,7 +97,8 @@
         >
         </v-progress-linear>
       </v-card>
-    </v-dialog>    
+    </v-dialog> 
+    <!-- ceshi    -->
     <toVertify @hide="vertifyCheck(9527);showToAuth=false" v-if="showToAuth"></toVertify>
     <alertBox @cancel="showDeleteDialog = false" @certain="certainOrderTake" :showIt="showDeleteDialog" title="确定要接收这个订单吗？"/>
     <userInfo @hide="showUserInfo=false" v-if="showUserInfo"/>
